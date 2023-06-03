@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Quicksand&display=swap');
+
+html, body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #b8c3c2;
+    color: white;
+}
+
+.ff-jose{
+    font-family: 'Jost', sans-serif ;
+}
+
+.font-big{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.background {
+  background-image: url('map1.png'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  background-color: rgba(255, 255, 255, 0.8); /* Replace with your desired background color */
+}
+
+
+.pharmacy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.pharmacy-list li {
+  margin-bottom: 5px;
+}
+-------------------
+/* styles.css */
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.table thead th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody td:last-child {
+  text-align: center;
+}
+
+.action-buttons button {
+  padding: 4px 8px;
+  margin-right: 4px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  background-color: #23527c;
+}
+
+
+-----------------
+
+.button-search {
+  border-radius: 70px; /* Adjust the value to change the roundness */
+  background-color: #0F3460;; /* Change to your desired color */
+  color: rgb(255, 255, 255); /* Change to your desired text color */
+  font-size: 17px; /* Adjust the value to change the font size */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Change to your desired font */
+  padding: 5px 30px; /* Adjust the padding to change the button size */
+}
+
+.button-search1 {
+  border-radius: 70px; /* Adjust the value to change the roundness */
+  background-color: rgb(41, 163, 64); /* Change to your desired color */
+  color: rgb(0, 0, 0); /* Change to your desired text color */
+  font-size: 17px; /* Adjust the value to change the font size */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Change to your desired font */
+  padding: 5px 50px; /* Adjust the padding to change the button size */
+}
+
+.font-m{
+  font-family: 'Jost', 'Franklin Gothic Medium';
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: #0072b1;
+}
+
+.font-ss{
+  font-family: 'Jost', 'Franklin Gothic Medium';
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: #000000;
+}
+
+.font-big1{
+  font-family: 'Jost', 'Franklin Gothic Medium';
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+
+}
+
+
+
+
+
+.font-moy{
+  font-family: 'Jost', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.bg-dark{
+    background-color: #1A1A2E !important;
+}
+.bg-blue {
+    background-color: #0F3460;
+}
+.text-red {
+    color: #0072b1;
+}
+.text-black {
+    color: #1A1A2E;
+}
+.text-g {
+  color:  #0F3460;
+}
+
+.text-gc {
+  color:  #3a8bee;
+}
+.dropdown-item:active {
+    background-color: #c4c4c4 !important;
+}
+.active {
+    color: #0072b1 !important;
+    background-color: #1A1A2E !important;
+    font-weight: 600;
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInTop {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes slideInBottom {
+    0% {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes slideInBottomTechnology {
+    0% {
+      transform: translateY(10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .slide-in-left {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+  }
+  .slide-in-top {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInTop;
+  }
+  .slide-in-bottom {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInBottom;
+  }
+
+/* ===================== Transition ===================== */
+
+.animate-charcter
+{
+  background-image: linear-gradient(-225deg,#ffffff,#0072b1,#4550e9,#ffffff);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* ===================== Home ===================== */
+.ls-2{
+    letter-spacing: 2px; 
+ }
+
+/* ===================== Skills ===================== */
+.mw-fc {
+  max-width: fit-content;
+}
+
+/* ===================== Resume ===================== */
+li::marker {
+    color: #0072b1;
+    font-size: 2em;
+}
+.blue-label{
+    background-color: #0F3460;
+    width: max-content;
+}
+.zoom-on-hover:hover {
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+/**/
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logo-container {
+  width: 300px;
+  height: 300px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
